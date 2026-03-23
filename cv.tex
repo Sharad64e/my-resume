@@ -1,6 +1,6 @@
-\documentclass[a4paper,10pt]{article}
+\documentclass[a4paper,9pt]{article}
 
-\usepackage[margin=0.7in]{geometry}
+\usepackage[margin=0.5in]{geometry}
 \usepackage{tabularx}
 \usepackage{enumitem}
 \usepackage{titlesec}
@@ -11,55 +11,56 @@
 \definecolor{linkcolour}{rgb}{0,0.2,0.6}
 \hypersetup{colorlinks, urlcolor=linkcolour}
 
-\titleformat{\section}{\large\scshape\raggedright}{}{0em}{}[\titlerule]
+\titleformat{\section}{\bfseries\uppercase}{\thesection}{0em}{}[\titlerule]
+\titlespacing{\section}{0pt}{6pt}{4pt}
 
+\renewcommand{\baselinestretch}{0.95}
 \pagestyle{empty}
 
 \begin{document}
 
 %---------- HEADER ----------%
 \begin{center}
-    {\Huge \textbf{Sharad Krishna Singh}} \\[6pt]
-    \href{https://github.com/Sharad64e}{\faGithub\ Sharad64e} $|$
-    \href{https://www.linkedin.com/in/sharad-krishna-singh-4376212a1}{\faLinkedin\ LinkedIn} $|$
-    \href{https://expense-tracker-app-beta-lake.vercel.app/}{\faGlobe\ Project} $|$
-    \href{mailto:sharadapril6@gmail.com}{\faEnvelope\ sharadapril6@gmail.com} $|$
-    \faMobile\ +91 99564 20520
+    {\LARGE \textbf{Sharad Krishna Singh}} \\
+    \href{https://github.com/Sharad64e}{GitHub} $|$
+    \href{https://www.linkedin.com/in/sharad-krishna-singh-4376212a1}{LinkedIn} $|$
+    \href{https://expense-tracker-app-beta-lake.vercel.app/}{Portfolio} $|$
+    sharadapril6@gmail.com $|$ +91 99564 20520
 \end{center}
 
 %---------- SUMMARY ----------%
 \section{Summary}
-Computer Science Engineering (AI \& ML) student focused on web development and problem solving. Experienced in MERN stack and building real-world applications. Interested in data science and exploring tools for practical problem solving.
+CSE (AI \& ML) student with strong focus on full-stack web development. Built scalable MERN applications and integrated ML-based features into web systems. Interested in data-driven problem solving and building real-world impactful solutions.
 
 %---------- PROJECTS ----------%
 \section{Projects}
 
-\textbf{Expense Tracker Web App (MERN Stack)} \hfill \href{https://expense-tracker-app-beta-lake.vercel.app/}{Live} \\
-\begin{itemize}[leftmargin=*]
-\item Built a full-stack expense tracker to manage daily transactions
-\item Implemented add/delete functionality with real-time balance updates
-\item Designed RESTful APIs for seamless frontend-backend integration
-\item Deployed application on Vercel
+\textbf{Expense Tracker Web App (MERN)} \hfill \href{https://expense-tracker-app-beta-lake.vercel.app/}{Live} \\
+\begin{itemize}[leftmargin=*, itemsep=1pt, topsep=1pt]
+\item Developed full-stack application to manage daily transactions with real-time balance updates
+\item Designed RESTful APIs and ensured seamless frontend-backend integration
+\item Improved user experience with responsive UI and efficient state handling
+\item Deployed application on Vercel ensuring accessibility and performance
 \end{itemize}
 
-\vspace{4pt}
+\vspace{2pt}
 
 \textbf{Mood Detection Song Recommendation System} \hfill \href{https://example.com}{Live} \\
-\begin{itemize}[leftmargin=*]
-\item Developed a web app to detect emotions using face recognition
-\item Integrated ML model for real-time emotion classification
-\item Suggested songs based on detected mood
-\item Built frontend using React and connected ML model
+\begin{itemize}[leftmargin=*, itemsep=1pt, topsep=1pt]
+\item Built emotion detection system using face recognition and ML models
+\item Implemented real-time emotion classification for dynamic recommendations
+\item Integrated React frontend with ML backend for smooth prediction pipeline
+\item Designed logic for personalized music suggestions based on user mood
 \end{itemize}
 
 %---------- EXPERIENCE ----------%
 \section{Experience}
 
 \textbf{Social Internship -- Intern} \hfill 2024 \\
-\begin{itemize}[leftmargin=*]
-\item Worked in a team-based environment on community projects
-\item Improved communication and problem-solving skills
-\item Gained real-world exposure to structured execution
+\begin{itemize}[leftmargin=*, itemsep=1pt, topsep=1pt]
+\item Collaborated in team-based environment on community-driven initiatives
+\item Strengthened communication and structured problem-solving abilities
+\item Gained practical exposure to real-world project workflows
 \end{itemize}
 
 %---------- EDUCATION ----------%
@@ -69,8 +70,7 @@ Computer Science Engineering (AI \& ML) student focused on web development and p
 KIET Group of Institutions, Ghaziabad \hfill CGPA: 8.36 \\
 
 \textbf{Class 12} \hfill 80\% \\
-
-\textbf{Class 10} \hfill 94.8\% \\
+\textbf{Class 10} \hfill 94.8\%
 
 %---------- SKILLS ----------%
 \section{Skills}
@@ -79,7 +79,7 @@ KIET Group of Institutions, Ghaziabad \hfill CGPA: 8.36 \\
 \textbf{Web:} MongoDB, Express, React, Node.js, Tailwind CSS \\
 \textbf{Core:} DSA, DBMS \\
 \textbf{Cloud:} AWS \\
-\textbf{Tools:} Git, GitHub \\
+\textbf{Tools:} Git, GitHub
 
 %---------- CERTIFICATIONS ----------%
 \section{Certifications}
@@ -87,4 +87,5 @@ KIET Group of Institutions, Ghaziabad \hfill CGPA: 8.36 \\
 AWS Certified Cloud Practitioner (2025--2028) \\
 AI For Everyone -- Coursera
 
+\end{document}
 \end{document}
